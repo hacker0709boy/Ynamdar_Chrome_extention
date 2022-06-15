@@ -1,0 +1,18 @@
+{
+	"name": "Ynamdar Online Market ",
+	"version": "1.0.1",
+	"manifest_version": 2,
+	"description":"Ynamdar Online Market\nAşgabat Ynamdar Store. Kategoriýalar Brendler. Previous Next. Mobil programmany al.",
+
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": "ynamdarlogo.png",
+		"default_python": "popup.py"
+	},
+	"icons": {
+		"128": "ynamdarlogo.png"
+
+	},
+	"permissions": ["activeTab"]
+
+}
